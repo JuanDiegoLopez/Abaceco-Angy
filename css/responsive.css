@@ -1,0 +1,77 @@
+.fila{
+  width:100%;
+  overflow: hidden;
+}
+
+[class^=col-]{
+  position: relative;
+  float:left;
+  background-clip:content-box; /*Para que el color de fondo no se aplique al padding (estetica del ejemplo)*/
+}
+
+
+
+.col-small-12 {width: 100%;}
+.col-small-11 {width: 91.66666667%;}
+.col-small-10 {width: 83.33333%;}
+.col-small-9 {width: 75%;}
+.col-small-8 {width: 66.66666667%;}
+.col-small-7 {width: 58.33333333%;}
+.col-small-6 {width: 50%;}
+.col-small-5 {width: 41.66666667%;}
+.col-small-4 {width: 33.33333333%;}
+.col-small-3 {width: 25%;}
+.col-small-2 {width: 16.66666667%;}
+.col-small-1 {width: 8.33333333%;}
+
+@media (min-width: 992px){
+  .col-medium-12 {width: 100%;}
+  .col-medium-11 {width: 91.66666667%;}
+  .col-medium-10 {width: 83.33333%;}
+  .col-medium-9 {width: 75%;}
+  .col-medium-8 {width: 66.66666667%;}
+  .col-medium-7 {width: 58.33333333%;}
+  .col-medium-6 {width: 50%;}
+  .col-medium-5 {width: 41.66666667%;}
+  .col-medium-4 {width: 33.33333333%;}
+  .col-medium-3 {width: 25%;}
+  .col-medium-2 {width: 16.66666667%;}
+  .col-medium-1 {width: 8.33333333%;}
+}
+
+@media (min-width: 1200px){
+  .col-large-12 {width: 100%;}
+  .col-large-11 {width: 91.66666667%;}
+  .col-large-10 {width:83.33333%;}
+  .col-large-9 {width: 75%;}
+  .col-large-8 {width: 66.66666667%;}
+  .col-large-7 {width: 58.33333333%;}
+  .col-large-6 {width: 50%;}
+  .col-large-5 {width: 41.66666667%;}
+  .col-large-4 {width: 33.33333333%;}
+  .col-large-3 {width: 25%;}
+  .col-large-2 {width: 16.66666667%;}
+  .col-large-1 {width: 8.33333333%;}
+
+  .col-large-2 img{
+    width: 70%;
+  }
+  .col-large-3 img{
+    width: 50%;
+  }
+  .col-large-4 img{
+    width: 40%;
+  }
+
+}
+
+.main{
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+
+img:hover{
+	box-shadow: 0px 2px 0px #1948A1;
+}

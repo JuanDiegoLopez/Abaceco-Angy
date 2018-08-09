@@ -1,0 +1,53 @@
+
+.contenedor1{
+  text-align: center;
+}
+.contenedor2{
+  margin:auto;
+  border-radius: 10px;
+  background: #148cfb;
+  border: 1px solid #2724cd;
+  display:inline-block;
+  box-shadow: 0px 5px 10px #0d0c0c;
+}
+
+.contenedor-large{
+  width: 85%;
+}
+
+.contenedor3{
+  width: 100%;
+  overflow-x: scroll;
+}
+
+h1{
+  font-size: 45px;
+  background: #1140ab;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+  color:#fff;
+}
+
+table{
+	border-collapse: collapse;
+  margin-top: 0px;
+}
+table td{
+	padding: 5px;
+  text-align: center;
+}
+
+.datos{
+  background: #1a64c1;
+  font-weight: bold;
+  color: #fff !important;
+  font-size: 18px;
+}
+
+.main{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
